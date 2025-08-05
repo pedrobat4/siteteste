@@ -24,7 +24,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col animate-in fade-in duration-500">
       {/* Hero Section */}
-      <section className="py-24 sm:py-32 bg-card">
+      <section className="min-h-[calc(100vh-80px)] bg-card flex items-center justify-center">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary mb-4">
             Clarity in Complexity. Justice for You.
